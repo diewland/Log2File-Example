@@ -23,12 +23,14 @@ class MainActivity : AppCompatActivity() {
 
         // before write
         l.read().forEach { Log.d(tag, it) }
+        Log.d(tag, l.readText())
 
         // write N round
         for (i in 1..round) { l.write(i.toString()) }
 
         // after write
         l.read().forEach { Log.d(tag, it) }
+        Log.d(tag, l.readText())
 
     }
 }
