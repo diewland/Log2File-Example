@@ -1,0 +1,3 @@
+[submodule "app/src/main/java/com/diewland/log2file"]
+	path = app/src/main/java/com/diewland/log2file
+	url = https://github.com/diewland/Log2File.git
